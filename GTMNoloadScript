@@ -50,10 +50,10 @@ fi
 count=1
 
 check(){
-  local border_color="\e[31m"  # Light red color
+  local border_color="\e[31m"  # Light purple color
   local success_color="\e[32m"  # Light green color
-  local fail_color="\e[94m"    # Light blue color
-  local header_color="\e[93m"  # Light cyan color
+  local fail_color="\e[94m"    # Light red color
+  local header_color="\e[93m"  # Light orange color
   local reset_color="\e[0m"    # Reset to default terminal color
   local padding="  "            # Padding for aesthetic
 
@@ -65,7 +65,7 @@ check(){
 █▄▄NATURE/INTROVERT▄▄█
 
 {reset_color}"
-  echo -e "${border_color}│${header_color}${padding}SF VPN DNS Status Check Results${padding}${reset_color}"
+  echo -e "${border_color}│${header_color}${padding}NATURE/INTROVERT VPN DNS Status Check Results${padding}${reset_color}"
   echo -e "${border_color}├────────────────────────────────────────────────┤${reset_color}"
   
   # Results
