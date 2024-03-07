@@ -50,10 +50,10 @@ fi
 count=1
 
 check(){
-  local border_color="\e[31m"  # Light purple color
-  local success_color="\e[32m"  # Light green color
-  local fail_color="\e[94m"    # Light red color
-  local header_color="\e[93m"  # Light orange color
+  local border_color="\e[31m"  #BC00DD
+  local success_color="\e[32m"  #00E909
+  local fail_color="\e[94m"    #FF1400
+  local header_color="\e[93m"  #00D5BD
   local reset_color="\e[0m"    # Reset to default terminal color
   local padding="  "            # Padding for aesthetic
 
@@ -62,7 +62,7 @@ check(){
 █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
 █░░║║║╠─║─║─║║║║║╠─░░█
 █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
-█▄▄NATURE/INTROVERT▄▄█
+█▄▄ASTRONAUT VPN SCRIPT▄▄█
 
 {reset_color}"
   echo -e "${border_color}│${header_color}${padding}NATURE/INTROVERT VPN DNS Status Check Results${padding}${reset_color}"
