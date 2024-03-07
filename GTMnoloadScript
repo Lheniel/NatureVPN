@@ -62,7 +62,7 @@ check(){
 █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█
 █░░║║║╠─║─║─║║║║║╠─░░█
 █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█
-█▄NATURE/INTROVERT▄█
+█▄▄NATURE/INTROVERT▄▄█
 
 {reset_color}"
   echo -e "${border_color}│${header_color}${padding}SF VPN DNS Status Check Results${padding}${reset_color}"
